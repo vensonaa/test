@@ -5,7 +5,7 @@ public class CodeIssues {
         int unusedVariable = 10;
 
         // Issue 2: NullPointerException potential
-        String str = null;
+
         // System.out.println(str.length()); // Uncommenting this line will cause NullPointerException
 
         // Issue 3: Infinite loop
@@ -15,13 +15,14 @@ public class CodeIssues {
         //     // Missing i++ to terminate the loop
         // }
 
+
         // Issue 4: Type mismatch - implicit narrowing conversion
         long largeNumber = 10000000000L;
         // int smallNumber = largeNumber; // This will cause a compile-time error without explicit cast
 
         // Issue 5: Array Index Out of Bounds
         int[] numbers = {1, 2, 3};
-        // System.out.println(numbers[3]); // This will cause an ArrayIndexOutOfBoundsException
+
 
         // Issue 6: Resource leak - unclosed resource
         // try {
