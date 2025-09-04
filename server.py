@@ -14,7 +14,7 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
+print
 class User(BaseModel):
     username: str
     password: str
