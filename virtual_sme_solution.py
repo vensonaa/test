@@ -40,6 +40,7 @@ from sqlalchemy.orm import sessionmaker
 from dotenv import load_dotenv
 
 load_dotenv()
+def add():
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
