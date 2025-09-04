@@ -14,7 +14,9 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
 print
+
 class User(BaseModel):
     username: str
     password: str
@@ -40,4 +42,4 @@ async def log_login_attempt(attempt: LoginAttempt):
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8001)
+
