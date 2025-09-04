@@ -14,7 +14,7 @@ public class CodeIssues {
 
         // Issue 5: Array Index Out of Bounds
         int[] numbers = {1, 2, 3};
-        // System.out.println(numbers[3]); // This will cause an ArrayIndexOutOfBoundsException
+        
 
         // Issue 6: Resource leak - unclosed resource
         // try {
