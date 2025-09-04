@@ -13,7 +13,9 @@ from datetime import datetime
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 from virtual_sme_solution import VirtualSMESystem, KnowledgeDocument, BankingDomain
+def add():
 
+    
 def test_virtual_sme():
     """Test the Virtual SME system with sample queries"""
     
