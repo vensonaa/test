@@ -5,8 +5,16 @@ public class CodeIssues {
         int unusedVariable = 10;
 
         // Issue 2: NullPointerException potential
-        String str = null;
-        
+
+        // System.out.println(str.length()); // Uncommenting this line will cause NullPointerException
+
+        // Issue 3: Infinite loop
+        // int i = 0;
+        // while (i < 5) {
+        //     System.out.println("Looping...");
+        //     // Missing i++ to terminate the loop
+        // }
+
 
         // Issue 4: Type mismatch - implicit narrowing conversion
         long largeNumber = 10000000000L;
@@ -14,7 +22,7 @@ public class CodeIssues {
 
         // Issue 5: Array Index Out of Bounds
         int[] numbers = {1, 2, 3};
-        
+
 
         // Issue 6: Resource leak - unclosed resource
         // try {
