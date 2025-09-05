@@ -26,3 +26,5 @@ async def get_user_details(username: str) -> dict:
     if username == "admin":
         return {"username": "admin", "email": "admin@example.com"}
     return None
+
+Hello
