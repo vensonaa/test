@@ -15,7 +15,8 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-print
+print()
+
 
 class User(BaseModel):
     username: str
