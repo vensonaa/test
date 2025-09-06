@@ -78,7 +78,7 @@ class QueryResponse:
 
 # Database Models
 Base = declarative_base()
-
+def multiplu():
 class DocumentModel(Base):
     __tablename__ = "documents"
     
